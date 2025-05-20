@@ -34,7 +34,7 @@ export default function StyleGuidePage() {
               </span>
             </span>
           </h1>
-          <p className="text-xs text-center mt-4 text-muted-foreground">Gradient text with fade-up animations</p>
+          <p className="text-base text-center mt-4 text-muted-foreground">Gradient text with fade-up animations</p>
         </div>
       </div>
       <Separator className="my-10" />
