@@ -24,14 +24,13 @@ export default function StyleGuidePage() {
       <Image src="/firecrawl-logo-with-fire.png" alt="Firecrawl Logo" width={200} height={200} />
       </div>
     
-   
       <div className="mb-10">
         <div className="p-6 bg-white dark:bg-zinc-900 rounded-md">
-          <h1 className="text-[2.5rem] sm:text-[3.8rem] text-center text-[#36322F] dark:text-zinc-100 font-semibold tracking-tight leading-[0.9] opacity-0 animate-fade-up" style={{animationDuration: "500ms", animationDelay: "200ms"}}>
-            Firecrawl Base<br/>
-            <span className="block leading-[1.1] opacity-0 animate-fade-up" style={{animationDuration: "500ms", animationDelay: "400ms"}}>
-              <span className="relative px-1 animate-text transition-all text-transparent bg-clip-text bg-gradient-to-tr from-red-600 to-yellow-500 inline-flex justify-center items-center">
-                Next.js repo
+          <h1 className="text-[2.5rem] @lg:text-[3.8rem] text-center text-[#36322F] font-semibold tracking-tight leading-[0.9] mt-4 opacity-0 animate-fade-up [animation-duration:var(--d-3)] [animation-delay:var(--t-1)]">
+            Turn websites into<br/>
+            <span className="block leading-[1.1] opacity-0 animate-fade-up [animation-duration:var(--d-3)] [animation-delay:var(--t-2)]">
+              <span className="relative px-1 text-transparent bg-clip-text bg-gradient-to-tr from-red-600 to-yellow-500 inline-flex justify-center items-center">
+                LLM-ready data
               </span>
             </span>
           </h1>
