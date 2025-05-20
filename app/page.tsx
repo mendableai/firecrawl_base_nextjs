@@ -21,12 +21,12 @@ export default function StyleGuidePage() {
   return (
     <div className="px-4 sm:container py-6 sm:py-10 max-w-5xl mx-auto font-inter">
       <div className="flex mb-8">
-      <Image src="/firecrawl-logo-with-fire.png" alt="Firecrawl Logo" width={200} height={200} />
+      <Image src="/firecrawl-logo-with-fire.png" alt="Firecrawl Logo" width={113} height={24} />
       </div>
     
       <div className="mb-10">
         <div className="p-6 bg-white dark:bg-zinc-900 rounded-md">
-          <h1 className="text-[2.5rem] @lg:text-[3.8rem] text-center text-[#36322F] font-semibold tracking-tight leading-[0.9] mt-4 opacity-0 animate-fade-up [animation-duration:var(--d-3)] [animation-delay:var(--t-1)]">
+          <h1 className="text-[2.5rem] lg:text-[3.8rem] text-center text-[#36322F] font-semibold tracking-tight leading-[0.9] mt-4 opacity-0 animate-fade-up [animation-duration:var(--d-3)] [animation-delay:var(--t-1)]">
             Turn websites into<br/>
             <span className="block leading-[1.1] opacity-0 animate-fade-up [animation-duration:var(--d-3)] [animation-delay:var(--t-2)]">
               <span className="relative px-1 text-transparent bg-clip-text bg-gradient-to-tr from-red-600 to-yellow-500 inline-flex justify-center items-center">
